@@ -144,3 +144,45 @@ section {
     line-height: 35px;
     cursor: pointer;
 }
+
+.support-Item p:hover {
+    text-decoration-line: underline;
+}
+
+.summer-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+}
+
+.summer-items {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.summer-items img {
+    width: 250px;
+    height: 300px;
+    background-color: #CE87fd;
+}
+
+.summer-items h4 {
+    color: #393838;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.summer-items p {
+    color: #514d4d;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.summer-items h4:hover {
+    text-decoration-line: underline;
+}
+
+.summer-items p:hover {
+    text-decoration-line: underline;
+}
