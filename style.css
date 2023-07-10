@@ -11,7 +11,7 @@ body {
 section {
     height: 100vh;
 }
-
+/* head section style */
 .first-section {
     background-color: rgba(229, 84, 115, 0.10);
     height: 100vh;
@@ -73,6 +73,8 @@ section {
     font-weight: 400;
     line-height: 30px;
 }
+
+/* Featured Flowers section style */
 
 .Featured-Flowers-container {
     display: flex;
@@ -149,6 +151,8 @@ section {
     text-decoration-line: underline;
 }
 
+/* summer section style */
+
 .summer-container {
     display: flex;
     justify-content: space-evenly;
@@ -185,4 +189,120 @@ section {
 
 .summer-items p:hover {
     text-decoration-line: underline;
+}
+
+/* sign up section style */
+
+.sigh-up-section {
+    border-radius: 5px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.deal-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.deal-content span {
+    color: #E55473;
+}
+
+.deal-content {
+    text-align: center;
+}
+
+.deal-content h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.deal-content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+/* social section style */
+
+.social-media-section {
+    height: 160vh;
+    align-items: center;
+}
+
+.social-container {
+    width: 83%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    align-items: center;
+}
+
+.social-container img {
+    width: 250px;
+    height: 300px;
+}
+
+.subscribe-container {
+    width: 83%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    background-image: url('./Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.subscribe-container h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 70px;
+}
+
+.subscribe-container p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.subscribe-container input {
+    width: 500px;
+    padding: 15px;
+    height: 20px;
+    border-radius: 5px;
+    background: #FFF;
+    font-size: 18px;
+    border: 0;
+}
+
+.btn-subscribe {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #E55473;
+    cursor: pointer;
+}
+
+/* footer section style */
+
+footer{
+    height: 100vh;
 }
